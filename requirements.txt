@@ -1,0 +1,7 @@
+sentence-transformers
+qdrant-client
+pydantic-ai
+pypdf
+fastui
+fastapi
+uvicorn
