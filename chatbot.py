@@ -8,7 +8,7 @@ from agents import select_saying, synthesize_response, refine_prompt
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # Connect to Qdrant
-client = QdrantClient(host="localhost", port=6333)
+client = QdrantClient(host="0.0.0.0", port=6333)
 
 # Initialize Sentence Transformer model
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
